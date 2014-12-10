@@ -131,3 +131,16 @@ a:hover{
     color: #D3F2FF;
 }
 
+h3{
+	text-align: center;
+}
+
+.selected{
+	color: #9F9A84;
+}
+
+@media(max-width: 480px){
+	.thumbnail{
+		width: 100%;
+	}
+}

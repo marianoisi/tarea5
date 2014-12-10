@@ -140,3 +140,17 @@ a:hover{
 h2, h3, h4, h5, h6, p{
 	color: #65727A;
 }
+
+h3{
+	text-align: center;
+}
+
+.selected{
+	color: #8F9A9C;
+}
+
+@media(max-width: 480px){
+	.thumbnail{
+		width: 100%;
+	}
+}

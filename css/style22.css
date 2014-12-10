@@ -1,3 +1,4 @@
+
 body{
 	background-color: #5C3E43;
 }
@@ -8,7 +9,6 @@ h1{
 	float: left;
 	font-family: Courier, sans-serif;
 	text-align: center;
-	color: #5C3E43;
 }
 
 
@@ -20,10 +20,10 @@ h1{
 	height: 80px;
 	margin-top: 20px;
 	padding-top: 30px; 
- 	background: -webkit-linear-gradient(#8CDEBE, #739184); /* For Safari 5.1 to 6.0 */
- 	background: -o-linear-gradient(#8CDEBE, #739184); /* For Opera 11.1 to 12.0 */
- 	background: -moz-linear-gradient(#8CDEBE, #739184); /* For Firefox 3.6 to 15 */
- 	background: linear-gradient(#8CDEBE, #739184); /* Standard syntax */
+ 	background: -webkit-linear-gradient(#FFF7D4, #F7F4B0); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#FFF7D4, #F7F4B0); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#FFF7D4, #F7F4B0); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#FFF7D4, #F7F4B0); /* Standard syntax */
   	padding-right: 8px;
   	padding-left: 8px;
 	z-index: 1;
@@ -59,7 +59,7 @@ h1{
 
 .column{
 	margin-top: 50px;
-	background-color: #FFF7D4; 
+	background-color: #8CDEBE; 
 	margin-bottom: 50px;
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 20px;
@@ -93,24 +93,24 @@ h1{
 }
 
 .btn-default{
-	background: -webkit-linear-gradient(#8CDEBE, #739184); /* For Safari 5.1 to 6.0 */
- 	background: -o-linear-gradient(#8CDEBE, #739184); /* For Opera 11.1 to 12.0 */
- 	background: -moz-linear-gradient(#8CDEBE, #739184); /* For Firefox 3.6 to 15 */
- 	background: linear-gradient(#8CDEBE, #739184); /* Standard syntax */
+	background: -webkit-linear-gradient(#FFF7D4, #F7F4B0); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#FFF7D4, #F7F4B0); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#FFF7D4, #F7F4B0); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#FFF7D4, #F7F4B0); /* Standard syntax */
 }
 
 .btn-default:hover{
-	background: -webkit-linear-gradient(#90E2C2, #779588); /* For Safari 5.1 to 6.0 */
- 	background: -o-linear-gradient(#90E2C2, #779588); /* For Opera 11.1 to 12.0 */
- 	background: -moz-linear-gradient(#90E2C2, #779588); /* For Firefox 3.6 to 15 */
- 	background: linear-gradient(#90E2C2, #779588); /* Standard syntax */
+	background: -webkit-linear-gradient(#FFFBD8, #FBF8B4); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#FFFBD8, #FBF8B4); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#FFFBD8, #FBF8B4); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#FFFBD8, #FBF8B4); /* Standard syntax */
 }
 
 .disabled{
-	background: -webkit-linear-gradient(#6CBE9E, #537164); /* For Safari 5.1 to 6.0 */
- 	background: -o-linear-gradient(#6CBE9E, #537164); /* For Opera 11.1 to 12.0 */
- 	background: -moz-linear-gradient(#6CBE9E, #537164); /* For Firefox 3.6 to 15 */
- 	background: linear-gradient(#6CBE9E, #537164); /* Standard syntax */
+	background: -webkit-linear-gradient(#EFE7C4, #E7E4A0); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#EFE7C4, #E7E4A0); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#EFE7C4, #E7E4A0); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#EFE7C4, #E7E4A0); /* Standard syntax */
 
 }
 
@@ -124,10 +124,10 @@ h1{
 	background-color: #9F9A84;
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 20px; 
-	background: -webkit-linear-gradient(#8CDEBE, #739184); /* For Safari 5.1 to 6.0 */
- 	background: -o-linear-gradient(#8CDEBE, #739184); /* For Opera 11.1 to 12.0 */
- 	background: -moz-linear-gradient(#8CDEBE, #739184); /* For Firefox 3.6 to 15 */
- 	background: linear-gradient(#8CDEBE, #739184); /* Standard syntax */
+	background: -webkit-linear-gradient(#FFF7D4, #F7F4B0); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#FFF7D4, #F7F4B0); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#FFF7D4, #F7F4B0); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#FFF7D4, #F7F4B0); /* Standard syntax */
  	margin-bottom: 20px;
 }
 
@@ -166,14 +166,8 @@ h1{
 
 a{
     text-decoration: none;
-    color: #F7F4B0;
 }
 
 a:hover{
     text-decoration: none;
-    color: #FFF7D4;
-}
-
-h2, h3, h4, h5, h6, p{
-	color: #5C3E43;
 }
