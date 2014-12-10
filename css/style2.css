@@ -1,0 +1,172 @@
+body{
+	background-color: #5C3E43;
+}
+
+h1{
+	display: inline;
+	margin: 0px 20px 20px 140px;
+	float: left;
+	font-family: Courier, sans-serif;
+	text-align: center;
+}
+
+
+.title{
+	display: block;
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+	height: 80px;
+	margin-top: 20px;
+	padding-top: 30px; 
+ 	background: -webkit-linear-gradient(#FFF7D4, #F7F4B0); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#FFF7D4, #F7F4B0); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#FFF7D4, #F7F4B0); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#FFF7D4, #F7F4B0); /* Standard syntax */
+  	padding-right: 8px;
+  	padding-left: 8px;
+	z-index: 1;
+	margin-bottom: 50px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.menu{
+    display: block;
+    float: right;
+    margin: 20px 20px 20px 40px;
+    font-size: 24px;
+}
+
+.menu ul{
+    display: inline;
+}
+
+.menu li{
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.home-image{
+	width: 100%;
+	height: 400px;
+	background-color: #000000;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.column{
+	margin-top: 50px;
+	background-color: #8CDEBE; 
+	margin-bottom: 50px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.thumbnail{
+	width: 50%;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.buttons{
+	display: block;
+	margin: auto;
+}
+
+.btn{
+	float: left;
+	width: 40%;
+	height: 48px;
+	color: #5C3E43;
+	display: block;
+	margin: 10px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.btn-default{
+	background: -webkit-linear-gradient(#FFF7D4, #F7F4B0); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#FFF7D4, #F7F4B0); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#FFF7D4, #F7F4B0); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#FFF7D4, #F7F4B0); /* Standard syntax */
+}
+
+.btn-default:hover{
+	background: -webkit-linear-gradient(#FFFBD8, #FBF8B4); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#FFFBD8, #FBF8B4); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#FFFBD8, #FBF8B4); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#FFFBD8, #FBF8B4); /* Standard syntax */
+}
+
+.disabled{
+	background: -webkit-linear-gradient(#EFE7C4, #E7E4A0); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#EFE7C4, #E7E4A0); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#EFE7C4, #E7E4A0); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#EFE7C4, #E7E4A0); /* Standard syntax */
+
+}
+
+.footer{
+	clear: both;
+	display: block;
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+	height: 240px;
+	background-color: #9F9A84;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px; 
+	background: -webkit-linear-gradient(#FFF7D4, #F7F4B0); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#FFF7D4, #F7F4B0); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#FFF7D4, #F7F4B0); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#FFF7D4, #F7F4B0); /* Standard syntax */
+ 	margin-bottom: 20px;
+}
+
+.map{
+    width: 30%;
+    height: 200px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.sitemap{
+    width:58%;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sitemap ul{
+    display: block;
+    width: 25%;
+    float: left;
+    margin: auto;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
